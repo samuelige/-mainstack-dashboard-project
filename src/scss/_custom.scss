@@ -1,0 +1,27 @@
+// Here you can add other styles
+.sidebar {
+    --cui-sidebar-bg: #FFFFFF;
+    --cui-sidebar-nav-title-color: #56616B;
+    --cui-sidebar-color: #677788;
+    --cui-sidebar-nav-link-color: #677788;
+    --cui-sidebar-nav-link-icon-color: #677788;
+    --cui-sidebar-nav-link-active-color: #FF5403;
+    --cui-sidebar-nav-link-active-bg: #ffffff;
+    --cui-sidebar-nav-link-active-icon-color: #FF5403;
+    --cui-sidebar-nav-link-hover-color: #FF5403;
+    --cui-sidebar-nav-link-hover-bg: #FFFFFF;
+    --cui-sidebar-nav-group-bg:#FFFFFF;
+    --cui-sidebar-nav-link-hover-icon-color:#FF5403;
+    --cui-sidebar-nav-link-disabled-color: #677788;
+    --cui-sidebar-nav-link-disabled-icon-color: #677788;
+    --cui-sidebar-nav-group-toggle-show-color: #677788;
+    --cui-sidebar-footer-bg: #ffffff;
+}
+
+.sidebar-brand{
+    background: #FFFFFF;
+}
+
+.footer {
+    --cui-footer-bg: #ffffff;
+}

@@ -45,5 +45,7 @@ module.exports = {
     "react/jsx-fragments": "off",
     "react/jsx-one-expression-per-line": "off",
     "react/require-default-props": "off",
+    "import/no-extraneous-dependencies": "off",
+    "react/prop-types": "off",
   },
 };
