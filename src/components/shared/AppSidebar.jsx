@@ -8,6 +8,7 @@ import {
   CSidebarFooter,
   CSidebarNav,
 } from "@coreui/react";
+import { FaEllipsisH } from "react-icons/fa";
 
 import SimpleBar from "simplebar-react";
 
@@ -40,11 +41,12 @@ const AppSidebar = () => {
         </SimpleBar>
       </CSidebarNav>
 
-      <CSidebarFooter className="d-flex align-items-center">
+      <CSidebarFooter style={{display: "flex", alignItems: "center", justifyContent: "space-between"}}>
         <div className="" style={{display: "flex", alignItems: "center"}}>
           <CAvatar src={blessingImg} size="md" />
           <p style={{marginLeft: "12px", marginBottom: "0px"}}>Blessing Daniels</p>
         </div>
+        <FaEllipsisH />
       </CSidebarFooter>
     </CSidebar>
   );

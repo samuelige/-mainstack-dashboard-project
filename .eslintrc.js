@@ -47,5 +47,6 @@ module.exports = {
     "react/require-default-props": "off",
     "import/no-extraneous-dependencies": "off",
     "react/prop-types": "off",
+    "no-return-await": "off",
   },
 };

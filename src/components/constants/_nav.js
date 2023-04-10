@@ -3,10 +3,10 @@ import React from "react";
 import { CNavItem, CNavTitle } from "@coreui/react";
 import { CiGrid42 } from "react-icons/ci";
 // import { TbCameraPlus } from "react-icons/tb";
-import { FaCamera, FaFile } from "react-icons/fa";
+import { FaCamera, FaFile, FaHourglass } from "react-icons/fa";
 import { AiFillDelete } from "react-icons/ai";
 import { BsFillAlarmFill, BsFillCollectionPlayFill } from "react-icons/bs";
-import { MdEdit, MdOutlineGroup, MdOutlinePeople } from "react-icons/md";
+import { MdEdit, MdOutlinePeople } from "react-icons/md";
 
 const nav = [
   {
@@ -18,20 +18,20 @@ const nav = [
   {
     component: CNavItem,
     name: "Item 1",
-    to: "/",
+    to: "/item-1",
     icon: <MdEdit className="nav-icon" />,
   },
   {
     component: CNavItem,
     name: "Item 2",
-    to: "/",
+    to: "/item-2",
     icon: <MdOutlinePeople className="nav-icon" />,
   },
   {
     component: CNavItem,
     name: "Item 3",
-    to: "/",
-    icon: <MdOutlineGroup className="nav-icon" />,
+    to: "/item-3",
+    icon: <FaHourglass className="nav-icon" />,
   },
   {
     component: CNavTitle,
@@ -40,13 +40,13 @@ const nav = [
   {
     component: CNavItem,
     name: "Item 4",
-    to: "/",
+    to: "/item-4",
     icon: <FaCamera className="nav-icon" />,
   },
   {
     component: CNavItem,
     name: "Item 5",
-    to: "/",
+    to: "/item-5",
     icon: <AiFillDelete className="nav-icon" />,
   },
   {
@@ -56,19 +56,19 @@ const nav = [
   {
     component: CNavItem,
     name: "Item 6",
-    to: "/",
+    to: "/item-6",
     icon: <BsFillCollectionPlayFill className="nav-icon" />,
   },
   {
     component: CNavItem,
     name: "Item 7",
-    to: "/",
+    to: "/item-7",
     icon: <FaFile className="nav-icon" />,
   },
   {
     component: CNavItem,
     name: "Item 8",
-    to: "/",
+    to: "/item-8",
     icon: <BsFillAlarmFill className="nav-icon" />,
   },
 ];

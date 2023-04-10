@@ -1,0 +1,33 @@
+export const config = {
+  colors: {
+    primary: "#5a8dee",
+    secondary: "#69809a",
+    success: "#39da8a",
+    info: "#00cfdd",
+    warning: "#fdac41",
+    danger: "#ff5b5c",
+    dark: "#495563",
+    black: "#000",
+    white: "#fff",
+    body: "#f2f2f6",
+    purple: "#C229F8",
+    headingColor: "#516377",
+    axisColor: "#a8b1bb",
+    borderColor: "#e9ecee",
+  },
+  colors_label: {
+    primary: "#5a8dee29",
+    secondary: "#69809a29",
+    success: "#39da8a29",
+    info: "#00cfdd29",
+    warning: "#fdac4129",
+    danger: "#ff5b5c29",
+    dark: "#49556329",
+  },
+  colors_dark: {
+    cardColor: "#F2F4F7",
+    headingColor: "#101828",
+    axisColor: "#8295ba",
+    borderColor: "#36445d",
+  },
+};
